@@ -31,8 +31,8 @@ The script can finally be executed as:
 
 `pypy dns_spoof.py -v <victim IP> -r <router IP> -d <domain target> -t <spoofing IP>`
 
-The &ltvictim IP&gt is the IP address of the machine we are trying to attack with our DNS spoofing. The
-&ltrouter IP&gt is the IP address of the router that both machines are connected to. The &ltdomain target&gt is
+The &lt;victim IP&gt; is the IP address of the machine we are trying to attack with our DNS spoofing. The
+&lt;router IP&gt; is the IP address of the router that both machines are connected to. The &lt;domain target&gt; is
 the domain that we will try to match for when we look at outbound DNS requests from the victim
-machine. The &ltspoofing IP&gt is the IP address of a website that we will serve the victim once we find a
-match with the &ltdomain target&gt.
+machine. The &lt;spoofing IP&gt; is the IP address of a website that we will serve the victim once we find a
+match with the &lt;domain target&gt;.
